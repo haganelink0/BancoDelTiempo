@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
-//https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS
+
 @RestController
-@RequestMapping("/webapi")
+@RequestMapping("/usersApi")
 @CrossOrigin(origins = "http://localhost:8081",methods={RequestMethod.GET,RequestMethod.POST})
 public class UserRESTController {
 	
